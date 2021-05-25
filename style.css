@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.container
+{
+    position: relative;
+    width: 400px;
+    height: 530px;
+    padding: 30px;
+    background-color: aliceblue;
+    box-shadow: 0 0 6px white,
+                inset 0 0 5px rgb(255, 0, 0);
+    border-radius: 4px;
+}
+.instructions
+{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid black;
+}
+.instructions > p 
+{
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.enter-number
+{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(82, 240, 76);
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.number
+{
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 6px;
+}
+.number:hover
+{
+    background-color: rgb(207, 202, 202);
+}
+.enter-bnt
+{
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    background-color: rgb(1, 132, 255);
+    cursor: pointer;
+}
+.enter-bnt:hover
+{
+    background-color: black;
+    color: wheat;
+    padding: 6px;
+}
+.show-enter
+{
+    background-color: gray;
+    margin-top: 5px;
+    padding: 10px;
+    padding-left: 18px;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.array
+{
+    font-size: 20px;
+    padding: 5px;
+    min-width: 40px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.start-element
+{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(248, 59, 96);
+    border: 1px solid black;
+    text-align: center;
+}
+.start
+{
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 300px;
+    background-color: rgb(6, 255, 6);
+    box-shadow: 0 0 10px black;
+}
+.start:hover
+{
+    font-size: 22px;
+    background-color: aliceblue;
+}
+.bubble-sort
+{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+    padding-left: 18px;
+    display: none;
+    overflow: auto;
+    height: 176px;
+}
+.alert
+{
+    color: red;
+    text-shadow: 0 0 10px white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration-line: overline;
+}
+.restore
+{
+    position: absolute;
+    top: 2.5px;
+    background-color: red;
+    padding: 10px;
+    width: 76px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    right: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid black;
+    box-shadow: inset 0 0 10px white;
+}
